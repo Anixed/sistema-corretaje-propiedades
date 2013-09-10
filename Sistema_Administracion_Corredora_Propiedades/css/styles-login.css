@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* Resets */
+html, body, div, p, span, h1, h2, h3, h4, h5, h6, img, ul, ol, dl, li, dt, dd, blockquote, pre, form, fieldset, label, select, input, textarea, table, th, td, a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	color: #fff;
+}
+:focus {outline:0;}
+body {line-height:1;}
+ul, ol {list-style:none;}
+h1, h2, h3, h4, h5, h6 {font-size:1em;}
+a, a:active, a:hover, a:link, a:visited {text-decoration: none;}
+
+body {
+	color: #333;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	padding: 20px;
+}
+
+.error a, a:active, a:link, a:visited {
+	color: #cc0000;
+	text-decoration: underline;
+}
+.error a:hover, a:focus {
+	color: #d54e21;
+	text-decoration: underline;
+}
+
+#ie {
+	background: #ffcccc;
+	border: 1px solid #cc0000;
+	color: #333;
+	margin-bottom: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+#login {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: auto;
+	width: 410px;
+	-webkit-box-shadow: 0 1px 4px #ccc;
+	-moz-box-shadow: 0 1px 4px #c0c0c0;
+	-khtml-box-shadow: 0 1px 4px #ccc;
+	box-shadow: 0 1px 4px #ccc;
+}
+
+#logo {text-align: center; padding-bottom: 20px;}
+h1 {color: #333; font-size: 2em; margin-top: 8px; /*text-shadow: #E74B2F 1px 1px 1px;*/}
+#logo p {color: #333; margin-top: 10px; padding: 10px;}
+#logo .info {background: #E7F9F8 url(../images/info_rhombus.png) 5px center no-repeat; border: 1px solid #B5D4FE; color: #0066AA;}
+#logo .error {background: #FDD1C5 url(../images/error.png) 5px center no-repeat; border: 1px solid #FBAB95; color: #E74B2F;}
+#login-form p {margin-bottom: 5px;}
+
+label {
+	color: #333;
+	width: 130px;
+	float: left;
+	margin-top: 3px;
+}
+
+input {
+	color: #333;
+	border: 1px solid #21759b;
+	padding: 2px;
+}
+
+#submit {
+	margin: 0 0 0 130px;
+}
+#submit:hover {
+	border: 1px solid #d54e21;
+}

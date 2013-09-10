@@ -1,0 +1,59 @@
+@charset "utf-8";
+body {
+	background: #f1f1f1;
+	color: #333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	line-height: 18px;
+	margin: 0px;
+}
+
+#cont {
+	background: #fff;
+	border: 1px ridge #a7a6aa;
+	margin: 50px auto;
+	padding: 35px 30px 50px 30px;
+	width: 48em;
+	border.radius: 10px;
+	-khtml-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 1px 4px #a7a6aa;
+	-moz-box-shadow: 0 1px 4px #a7a6aa;
+	-khtml-box-shadow: 0 1px 4px #a7a6aa;
+	box-shadow: 0 1px 4px #a7a6aa;
+}
+
+#box {
+	background: url('../images/warning.png') no-repeat top left;
+	padding-left: 65px;
+}
+
+	h1 {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	hr {
+		border: 0;
+		border-bottom: 1px solid #dcdfe4;
+	}
+	
+	span {
+		font-size: 1.2em;
+	}
+	
+	ul li {
+		font-size: 1.1em;
+		list-style-type: square;
+		margin-left: 13px;
+	}
+	
+	#key {
+		background: url('../images/key.png') no-repeat left center;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+	
+	.button {
+		font-size: 0.9em;
+	}
